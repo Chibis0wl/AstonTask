@@ -48,7 +48,12 @@ public class Task {
         System.out.println("Вычитание   | " + num1 + " - " + num2 + " = " + (num1-num2));
         System.out.println("Умножение   | " + num1 + " * " + num2 + " = " + (num1*num2));
         if (num2 != 0) {
-            System.out.println("Деление     | " + num1 + " / " + num2 + " = " + (num1/num2));
+            if (num1 >= num2){
+                System.out.println("Деление     | " + num1 + " / " + num2 + " = " + (num1/num2));
+            } else {
+                double res = (double) num1 / num2;
+                System.out.println("Деление     | " + num1 + " / " + num2 + " = " + res);
+            }
         } else System.out.println("Деление на 0 невозможно");
         System.out.println("_____________\n");
     }
