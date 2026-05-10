@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Task {
+public class Utils {
 
     private static int num1;
     private static int num2;
